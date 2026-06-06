@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToDo List</title>
+    <title>ToDo List - Sprint Review</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>ToDo List</h1>
+        <h1>📝 ToDo List</h1>
+        <p class="compteur">Tâches restantes : <span id="compteur">0</span></p>
         <div class="input-section">
             <input type="text" id="taskInput" placeholder="Nouvelle tâche...">
             <button id="addBtn">Ajouter</button>
         </div>
         <ul id="taskList"></ul>
+        <button id="clearBtn">🗑️ Vider la liste</button>
     </div>
     <script src="script.js"></script>
 </body>
